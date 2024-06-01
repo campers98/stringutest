@@ -4,4 +4,4 @@ pyromod
 tgcrypto
 requests
 Pillow
-python==3.10
+python==3.08
