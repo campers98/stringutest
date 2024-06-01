@@ -41,5 +41,18 @@
             "value": "0123456789abcdefgh0123455789-abcdefg-hi-j",
             "required": true
         }
-    }
+
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "stack": "container"
 }
